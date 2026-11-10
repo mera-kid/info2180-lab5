@@ -1,1 +1,40 @@
-/* Add your own styles */
+body{
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: darkseagreen;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#country{
+    padding: 20px;
+    width: 80%;
+    border-style: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#lookup{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: none;
+    margin: 5px;
+}
+
+#lookup:hover{
+    background-color: royalblue;
+}
+
+#result ul {
+    column-count: 3;
+    column-gap: 50px;
+    padding: 20px;
+}
