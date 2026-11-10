@@ -27,17 +27,35 @@ header{
     margin: 5px;
 }
 
+#buttons{
+    display: flex;
+    gap: 10px;
+}
+
 #lookup{
     background-color: lightseagreen;
     color: whitesmoke;
     border-radius: 5px;
     border-style: none;
-    width: 10%;
+    width: 50%;
     height: 40px;
 }
 
 #lookup:hover{
     background-color: darkcyan;
+}
+
+#lookup-cities{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 5px;
+    border-style: none;
+    width: 50%;
+    height: 40px;
+}
+
+#lookup-cities:hover{
+    background-color: royalblue;
 }
 
 #result{
